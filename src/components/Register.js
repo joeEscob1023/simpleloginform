@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText} from 'reactstrap';
 import {Link} from 'react-router-dom';
 
+//onClick wont change loggedIn to true (look in app.js to see the state and methods)
+//onSubmit on the button wont load the profile page when clicked, but will change loggedIn to to true
+//idk wtf to do :(
+
  class Register extends Component {
 
 
